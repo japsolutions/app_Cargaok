@@ -5,7 +5,7 @@ import time
 
 def cargar_datos(archivo_datos):
     # Corrección en el parámetro `encoding` y cierre de comillas
-    df = pd.read_csv(archivo_datos, encoding="UTF-8", sep=";")
+    df = pd.read_csv(archivo_datos, encoding="UTF-8", sep=",")
     return df
 
 def main():
