@@ -41,11 +41,7 @@ def main():
                 file_name=nuevo_nombre,
                 mime="text/csv",
             )
-            st.header(".Get started)
-            st.write("11)
-            st.bar_chart(df[['educacion', 'implicacion','puesto']]
-                          x='educacion',
-                          y='puesto')
+            
                      
 
 if __name__ == '__main__':
