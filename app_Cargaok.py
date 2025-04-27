@@ -10,7 +10,7 @@ def cargar_datos(archivo_datos):
 
 def main():
     # Título de la aplicación
-    st.title("Application to import files & downlon")
+    st.title("Application to import files & Dowloads")
     st.write("Sube el archivo CSV de datos para editar, cargar y guardar datos.")
 
 
